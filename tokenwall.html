@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TokenWall – Monetize Your Content</title>
+    <meta name="description" content="TokenWall is a decentralized paywall for creators. Built on Solana. Earn with every unlock." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background: #0a0a0a;
+        color: white;
+      }
+      .glow {
+        background: linear-gradient(90deg, #00f7ff, #a855f7);
+        background-size: 200% 200%;
+        animation: glow 6s ease infinite;
+      }
+      @keyframes glow {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="font-sans">
+    <!-- HERO SECTION WITH GITHUB-HOSTED VIDEO AND CENTERED SOCIAL ICONS -->
+<section class="relative h-screen flex flex-col justify-center items-center text-center overflow-hidden">
+
+    <!-- Background Video -->
+    <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0 opacity-20">
+      <source src="https://raw.githubusercontent.com/rogermakali/tokenwall/main/tokenwall.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  
+    <!-- Centered Social Icons -->
+    <div class="relative z-10 mb-6 flex justify-center space-x-6">
+      <a href="https://twitter.com/tokenwallapp" target="_blank" title="Twitter">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" class="w-6 h-6 invert hover:opacity-80 transition" />
+      </a>
+      <a href="https://t.me/tokenwallapp" target="_blank" title="Telegram">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram" class="w-6 h-6 invert hover:opacity-80 transition" />
+      </a>
+    </div>
+  
+    <!-- Hero Text and CTA -->
+    <div class="relative z-10 max-w-3xl px-6">
+      <h1 class="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
+        Monetize Your Content. Instantly.
+      </h1>
+      <p class="text-lg text-gray-300 mb-6">
+        The decentralized paywall for creators. Built on Solana.
+      </p>
+      <a href="https://t.me/tokenwallapp" class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Get Early Access</a>
+      <a href="https://tokenwall.gitbook.io/docs" class="ml-4 border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition">Read the Whitepaper</a>
+    </div>
+  </section>
+
+   
